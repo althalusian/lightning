@@ -38,6 +38,8 @@ static const char *level_prefix(enum log_level level)
 	case LOG_IO_OUT:
 	case LOG_IO_IN:
 		return "IO";
+	case LOG_TRACE:
+		return "TRACE";
 	case LOG_DBG:
 		return "DEBUG";
 	case LOG_INFORM:
